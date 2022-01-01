@@ -1,0 +1,80 @@
+.createUser {
+  flex: 4;
+  margin: 5px;
+  padding: 10px;
+}
+
+.createUser__title {
+  margin-bottom: 15px;
+}
+
+.createUser__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.createUser__group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.createUser__botton {
+  margin-top: 50px !important;
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+}
+
+.createUser__select {
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 30px;
+  width: 350px;
+}
+
+.createUser__select > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.createUser__selectSel {
+  font-size: 15px;
+  border-color: lightgray;
+  padding: 9px;
+  border-width: 1px;
+}
+.createUser__image {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0px;
+  width: 350px;
+}
+
+.createUser__image > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.createUser__botton > Button {
+  text-transform: none !important;
+  width: 40% !important;
+  background-color: darkblue !important;
+  color: white !important;
+  padding: 7px 10px !important;
+  height: 40px;
+  width: 15% !important;
+}
+
+.createUser__btnBack {
+  text-transform: none !important;
+  margin-right: 10px !important;
+  color: white !important;
+  padding: 7px 10px !important;
+  height: 40px;
+  align-self: flex-end;
+  background-color: darkblue !important;
+}

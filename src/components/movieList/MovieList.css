@@ -1,0 +1,28 @@
+.movieList {
+  flex: 4;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.movieList__btn {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 5px;
+}
+.movieList__btn > Button {
+  text-transform: none !important;
+  background-color: teal !important;
+  color: white !important;
+  padding: 7px 20px !important;
+}
+.movieList__table {
+  height: 75vh;
+}
+
+.movieList__edit {
+  color: rgb(35, 170, 35) !important;
+}
+
+.movieList__delete {
+  color: rgb(221, 8, 8);
+}

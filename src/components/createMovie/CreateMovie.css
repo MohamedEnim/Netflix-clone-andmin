@@ -1,0 +1,96 @@
+.createMovie {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+}
+
+.createMovie__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.createMovie__title {
+  margin-bottom: 20px;
+}
+.createMovie > form {
+  height: 100% !important;
+  margin-bottom: 20px;
+}
+
+.createMovie__group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputField {
+  padding-right: 30px;
+  width: 350px;
+}
+.createMovie__image {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0px;
+  width: 350px;
+}
+
+.createMovie__image > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.createMovie__select {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+
+  width: 350px;
+}
+
+.createMovie__select > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.createMovie__selectSel {
+  font-size: 15px;
+  border-color: lightgray;
+  padding: 9px;
+  border-width: 1px;
+}
+.createMovie__botton {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 350px;
+  padding-right: 30px;
+}
+
+.createMovie__btnBack {
+  text-transform: none !important;
+  margin-left: 10px !important;
+  color: white !important;
+  padding: 7px 10px !important;
+  height: 40px;
+  align-self: flex-end;
+  background-color: darkblue !important;
+}
+.createMovie__Wrapperbotton {
+  flex: 1;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 120px !important;
+}
+
+.createMovie__Wrapperbotton > Button {
+  text-transform: none !important;
+  width: 30% !important;
+  color: white !important;
+  padding: 7px 10px !important;
+  height: 40px;
+  align-self: flex-end;
+  margin-right: 190px;
+  background-color: darkblue !important;
+}

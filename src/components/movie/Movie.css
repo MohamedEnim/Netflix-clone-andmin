@@ -1,0 +1,129 @@
+.movie {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10px;
+}
+
+.movie__feed {
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  height: 40vh;
+}
+
+.movie__profile {
+  flex: 1;
+}
+
+.movie__profileDetails {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.movie__profileDetailsItemL {
+  font-size: 16px;
+  font-weight: 600;
+  width: 120px;
+}
+
+.movie__update {
+  margin: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.movie__updateWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie__updateGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie__select {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie__select > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.movie__selectSel {
+  font-size: 15px;
+  border-color: lightgray;
+  padding: 9px;
+  border-width: 1px;
+}
+
+.movie__updateTitleRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  flex-basis: 15%;
+}
+
+.movie__updateTitleRightTop {
+  position: relative;
+}
+
+.movie__updateTitleRightTop > label {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.movie__updateTitleRightTop > img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.movie__updateTitleRightBottom > Button {
+  text-transform: none !important;
+  width: 100% !important;
+  background-color: darkblue !important;
+  color: white !important;
+  padding: 7px 10px !important;
+}
+.movie__headerBtn {
+  display: flex;
+  flex: 0.4;
+  flex-direction: row-reverse;
+}
+
+.movie__btnBack {
+  text-transform: none !important;
+  margin-right: 10px !important;
+  color: white !important;
+  padding: 7px 10px !important;
+  height: 40px;
+  align-self: flex-end;
+  background-color: teal !important;
+}
+
+.movie__btnCre {
+  text-transform: none !important;
+  width: 40% !important;
+  color: white !important;
+  padding: 7px 10px !important;
+  height: 40px;
+  align-self: flex-end;
+  background-color: darkblue !important;
+}

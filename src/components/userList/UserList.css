@@ -1,0 +1,31 @@
+.userList {
+  flex: 4;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userList__btn {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 5px;
+}
+
+.userList__btn > Button {
+  text-transform: none !important;
+  background-color: teal !important;
+  color: white !important;
+  padding: 7px 20px !important;
+}
+
+.userList__table {
+  height: 75vh;
+}
+
+.userList__edit {
+  color: rgb(35, 170, 35) !important;
+}
+
+.userList__delete {
+  color: rgb(221, 8, 8);
+}

@@ -1,0 +1,31 @@
+.listList {
+  flex: 4;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.listList__btn {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 5px;
+}
+
+.listList__btn > Button {
+  text-transform: none !important;
+  background-color: teal !important;
+  color: white !important;
+  padding: 7px 20px !important;
+}
+
+.listList__table {
+  height: 75vh;
+}
+
+.listsList__edit {
+  color: rgb(35, 170, 35) !important;
+}
+
+.listsList__delete {
+  color: rgb(221, 8, 8);
+}

@@ -1,0 +1,98 @@
+.createList {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 10px;
+}
+
+.createList__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.createList__title {
+  margin-bottom: 20px;
+}
+.createList > form {
+  height: 100% !important;
+  margin-bottom: 20px;
+}
+
+.createList__group {
+  display: flex;
+
+  height: 70%;
+}
+.createList__groupL {
+  display: flex;
+  flex-direction: column;
+}
+.inputField {
+  padding-right: 30px;
+  width: 350px;
+}
+
+.createList__typeSelect {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  width: 350px;
+}
+
+.createList__typeSelect > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.createList__typeSelectSel {
+  font-size: 15px;
+  border-color: lightgray;
+  padding: 9px;
+  border-width: 1px;
+}
+
+.createList__groupR {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.createList__select {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+
+  width: 350px;
+}
+
+.createList__select > label {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.createList__selectSel {
+  font-size: 15px;
+  border-color: lightgray;
+  padding: 9px;
+  border-width: 1px;
+  height: 205px !important;
+}
+.createList__botton {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 350px;
+}
+
+.createList__botton > Button {
+  text-transform: none !important;
+  background-color: darkblue !important;
+  color: white !important;
+  width: 30% !important;
+  padding: 7px 10px !important;
+  height: 40px;
+  align-self: flex-end;
+}
